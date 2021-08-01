@@ -1,13 +1,9 @@
-System.register([], function (_export, _context) {
-  "use strict";
+"use strict";
 
-  var data;
-  return {
-    setters: [],
-    execute: function () {
-      data = '前端的数据';
-
-      _export("default", data);
-    }
-  };
+Object.defineProperty(exports, "__esModule", {
+  value: true
 });
+exports["default"] = void 0;
+var data = '前端的数据';
+var _default = data;
+exports["default"] = _default;
